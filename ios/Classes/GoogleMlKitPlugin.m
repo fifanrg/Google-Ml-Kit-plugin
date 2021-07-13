@@ -9,20 +9,20 @@
     GoogleMlKitPlugin* instance = [[GoogleMlKitPlugin alloc] init];
     
     // Add detectors
-    NSMutableArray *handlers = [NSMutableArray new];
-    [handlers addObject:[[BarcodeScanner alloc] init]];
-    [handlers addObject:[[DigitalInkRecogniser alloc] init]];
-    [handlers addObject:[[FaceDetector alloc] init]];
-    [handlers addObject:[[ImageLabeler alloc] init]];
-    [handlers addObject:[[PoseDetector alloc] init]];
-    [handlers addObject:[[TextRecognizer alloc] init]];
-    
-    instance.handlers = [NSMutableDictionary new];
-    for (id<Handler> detector in handlers) {
-        for (NSString *key in detector.getMethodsKeys) {
-            instance.handlers[key] = detector;
-        }
-    }
+//    NSMutableArray *handlers = [NSMutableArray new];
+//    [handlers addObject:[[BarcodeScanner alloc] init]];
+//    [handlers addObject:[[DigitalInkRecogniser alloc] init]];
+//    [handlers addObject:[[FaceDetector alloc] init]];
+//    [handlers addObject:[[ImageLabeler alloc] init]];
+//    [handlers addObject:[[PoseDetector alloc] init]];
+//    [handlers addObject:[[TextRecognizer alloc] init]];
+//
+//    instance.handlers = [NSMutableDictionary new];
+//    for (id<Handler> detector in handlers) {
+//        for (NSString *key in detector.getMethodsKeys) {
+//            instance.handlers[key] = detector;
+//        }
+//    }
     
     [registrar addMethodCallDelegate:instance channel:channel];
 }

@@ -12,10 +12,10 @@ PODS:
     - GoogleMLKit/PoseDetection
     - GoogleMLKit/PoseDetectionAccurate
     - GoogleMLKit/TextRecognition
-  - GoogleDataTransport (9.0.1):
+  - GoogleDataTransport (9.1.0):
     - GoogleUtilities/Environment (~> 7.2)
     - nanopb (~> 2.30908.0)
-    - PromisesObjC (~> 1.2)
+    - PromisesObjC (< 3.0, >= 1.2)
   - GoogleMLKit/BarcodeScanning (2.2.0):
     - GoogleMLKit/MLKitCore
     - MLKitBarcodeScanning (~> 1.3.0)
@@ -54,11 +54,11 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.3.1)
     - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.1)"
   - "GoogleToolboxForMac/NSString+URLArguments (2.3.1)"
-  - GoogleUtilities/Environment (7.4.3):
-    - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (7.4.3):
+  - GoogleUtilities/Environment (7.5.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/UserDefaults (7.4.3):
+  - GoogleUtilities/UserDefaults (7.5.0):
     - GoogleUtilities/Logger
   - GoogleUtilitiesComponents (1.0.0):
     - GoogleUtilities/Logger
@@ -137,7 +137,7 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
-  - PromisesObjC (1.2.12)
+  - PromisesObjC (2.0.0)
   - Protobuf (3.17.0)
   - SSZipArchive (2.4.2)
 
@@ -148,7 +148,7 @@ DEPENDENCIES:
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
 
 SPEC REPOS:
-  trunk:
+  https://cdn.cocoapods.org/:
     - GoogleDataTransport
     - GoogleMLKit
     - GoogleToolboxForMac
@@ -191,10 +191,10 @@ SPEC CHECKSUMS:
   camera: 3164201dc344383e62282964016528c4f5a9ad50
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
   google_ml_kit: 3e25499de151048da453504d2b676cfd1c6c6bd0
-  GoogleDataTransport: 04c3e9a480bbcaa2ec3f5d27f1cdeb6a92f20c8d
+  GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
   GoogleMLKit: 85ffdc9641d05311c76dbba5bbf93059087be12f
   GoogleToolboxForMac: 471e0c05d39506e50e6398f46fa9a12ae0efeff9
-  GoogleUtilities: 45dbb24a7f351d69d0a601482b39ad6c32e30dab
+  GoogleUtilities: eea970f4a389963963bffe8d8fabe43540678b9c
   GoogleUtilitiesComponents: a69c0b3b369ba443e988141e75ef49d9010b1c80
   GTMSessionFetcher: 36689134877faeb055b27dfa4ccc9ceaa42e029e
   image_picker: 50e7c7ff960e5f58faa4d1f4af84a771c671bc4a
@@ -216,7 +216,7 @@ SPEC CHECKSUMS:
   MLKitVisionKit: 226bac429eda1d84285409e31ce9da72606850fb
   MLKitXenoCommon: bf5b3528d77cabe0d04f3c13536ba1302346e31c
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
-  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
   SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
 
