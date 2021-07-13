@@ -1,14 +1,14 @@
 #import <Flutter/Flutter.h>
 
-#import <MLKitVision/MLKitVision.h>
+//#import <MLKitVision/MLKitVision.h>
 
 @interface GoogleMlKitPlugin : NSObject<FlutterPlugin>
 @property(nonatomic, readwrite) NSMutableDictionary *handlers;
 @end
 
-@interface MLKVisionImage(FlutterPlugin)
-+ (MLKVisionImage *)visionImageFromData:(NSDictionary *)imageData;
-@end
+//@interface MLKVisionImage(FlutterPlugin)
+//+ (MLKVisionImage *)visionImageFromData:(NSDictionary *)imageData;
+//@end
 
 @protocol Handler
 @required
